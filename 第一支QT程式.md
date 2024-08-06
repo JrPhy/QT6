@@ -80,3 +80,9 @@ int main(int argc, char *argv[])
     return a.exec();
 }
 ```
+而在 QT5 之後有 qtcreator 可以直接用圖形化介面去做排版，非常方便。
+
+## 3. qtcreator
+```export PATH=~/Qt/Tools/QtCreator/bin/qtcreator:$PATH``` 後，或將該命令加入 .bashrc 中的最後就可以直接 ./qtcreator。新建一個專案後就會自動產生許多檔案，其中 .ui 檔就是可以配合 qtDesign 使用，直接拖拉物件來做排版。qtcreator 類似 vscode，也可以在裡面寫函數，左下角有個綠色箭頭，按下去就會自動編譯並執行。
+![img](https://github.com/JrPhy/QT6/blob/main/img/QT1.jpg)
+![img](https://github.com/JrPhy/QT6/blob/main/img/QT2.jpg)
