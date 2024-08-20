@@ -28,7 +28,8 @@ int main(int argc, char *argv[])
 }
 
 ```
-```
+使用 setContextProperty 將資料傳到 QML 中，第一個引數就對應到 qml 中的物件名稱，第二個引數則是該物件的內容。setSource 則是該 .qml 檔案位置
+```js
 import QtQuick 2.9
 import QtQuick.Window 2.2
 
@@ -44,7 +45,5 @@ Rectangle {
     }
 }
 ```
-2. 
-QML 暴露对象给 C++ 进行交互；
-C++ 创建 QML 对象并进行交互；
-C++ 对象与 QML 通过信号槽交互。
+設定好之後就可以把該變數及內容傳到 qml 上顯示了。
+
