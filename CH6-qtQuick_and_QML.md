@@ -36,7 +36,7 @@ Window {
 }
 ```
 設定好之後就可以把該變數及內容傳到 qml 上顯示了。
-![img](https://github.com/JrPhy/QT6/blob/main/img/qml.jpg)\
+![img](https://github.com/JrPhy/QT6/blob/main/img/qml.jpg)
 
 #### 2. 註冊類別
 需要從 QObject 繼承新的子類，並使用 Q_OBJECT 和 Q_PROPERTY 宏定義，各項詳細可參考[這篇](https://www.cnblogs.com/wanghongyang/p/15233642.html)，例子可參考[官方給的](https://doc.qt.io/qt-5/qtqml-cppintegration-topic.html)。
@@ -79,6 +79,6 @@ ApplicationWindow {
 }
 ```
 在 backend.cpp 中印出訊息，可以看到隨著我們的輸入就有一直印出文字。
-![img](https://github.com/JrPhy/QT6/blob/main/img/qml_class.jpg)\
+![img](https://github.com/JrPhy/QT6/blob/main/img/qml_class.jpg)
 
 #### 3. 
