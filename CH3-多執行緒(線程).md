@@ -27,7 +27,7 @@ int main(int argc, char *argv[]) {
 
 ## 2. moveToThread
 [程式碼可參考這影片](https://www.bilibili.com/video/BV1Eu4114793/?spm_id_from=333.880.my_history.page.click)。此函數是將線程移到 Object 的子類中，從其他父類繼承的就沒辦法。此種方法可以藉由 connect 收發訊號，但無法執行無窮迴圈。
-```
+```cpp
 // SubThread.h
 class SubThread : public QThread
 {
